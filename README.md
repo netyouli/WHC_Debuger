@@ -6,11 +6,13 @@ WHC_Debuger
 [![Pod License](http://img.shields.io/cocoapods/l/WHC_Debuger.svg?style=flat)](https://opensource.org/licenses/MIT)
 简介
 ==============
-- **便捷**: 在维护未知项目调试定位Class文件超方便
+- **便捷**: 在维护未知项目调试定位当前界面VCClass文件超方便
 - **安全**: 该库文件代码只在Debug模式参入编译,Release发版将不会编译该库代码
 - **强大**: 在非主线程操作UI能给出危险警告弹窗让开发者检查改正代码
 - **咨询**: 712641411
 - **作者**: 吴海超
+
+[关于WHC_Debuger详细介绍](https://gold.xitu.io/post/587b2a89b123db005dee10a3)</br>
 
 使用第三方库
 ==============
