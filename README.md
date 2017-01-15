@@ -12,14 +12,14 @@ WHC_Debuger
 - **咨询**: 712641411
 - **作者**: 吴海超
 
+使用第三方库
+==============
+* Github：[AutoLayoutKit](https://github.com/netyouli/WHC_AutoLayoutKit)</br>
+
 演示
 ==============
 <img src = "https://github.com/netyouli/WHC_Model/blob/master/Result/b.png">
-<img src = "https://github.com/netyouli/WHC_Model/blob/master/Result/a.png"> 
-
-使用第三方库
-==============
-* Github[AutoLayoutKit](https://github.com/netyouli/WHC_AutoLayoutKit)</br>
+<img src = "https://github.com/netyouli/WHC_Model/blob/master/Result/a.png">
 
 要求
 ==============
@@ -33,7 +33,7 @@ WHC_Debuger
   -  Swift版 pod 'WHC_DebugerSwift', '~> 1.0.0'
 * 手工集成:
   -  OC导入文件夹WHC_Debuger
-  -  Swift导入文件夹WHC_DebugerSwift
+  -  Swift导入文件夹WHC_DebugerSwift 
 
 用法
 ==============
