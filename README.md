@@ -18,8 +18,7 @@ WHC_Debuger
 
 演示
 ==============
-<img src = "https://github.com/netyouli/WHC_Model/blob/master/Result/b.png">
-<img src = "https://github.com/netyouli/WHC_Model/blob/master/Result/a.png">
+<img src = "https://github.com/netyouli/WHC_Debuger/blob/master/WHC_Debuger.gif">
 
 要求
 ==============
