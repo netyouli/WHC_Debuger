@@ -13,6 +13,16 @@
 		FE13BC9C1E2A290500F9C90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13BC9A1E2A290500F9C90B /* Main.storyboard */; };
 		FE13BC9E1E2A290500F9C90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13BC9D1E2A290500F9C90B /* Assets.xcassets */; };
 		FE13BCA11E2A290500F9C90B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13BC9F1E2A290500F9C90B /* LaunchScreen.storyboard */; };
+		FE13BCAE1E2A29B000F9C90B /* UIViewController+WHC_Debuger.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCAD1E2A29B000F9C90B /* UIViewController+WHC_Debuger.m */; };
+		FE13BCB11E2A2A6C00F9C90B /* UIView+WHC_Debuger.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCB01E2A2A6C00F9C90B /* UIView+WHC_Debuger.m */; };
+		FE13BCB41E2A2A9900F9C90B /* WHC_Debuger.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCB31E2A2A9900F9C90B /* WHC_Debuger.m */; };
+		FE13BCB71E2A3B9200F9C90B /* ViewControllerDemo1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCB61E2A3B9200F9C90B /* ViewControllerDemo1.m */; };
+		FE13BCBA1E2A3BA100F9C90B /* ViewControllerDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCB91E2A3BA100F9C90B /* ViewControllerDemo2.m */; };
+		FE13BCC41E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCBD1E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.m */; };
+		FE13BCC51E2A3BF700F9C90B /* UIView+WHC_AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCBF1E2A3BF700F9C90B /* UIView+WHC_AutoLayout.m */; };
+		FE13BCC61E2A3BF700F9C90B /* UIView+WHC_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCC11E2A3BF700F9C90B /* UIView+WHC_Frame.m */; };
+		FE13BCC71E2A3BF700F9C90B /* WHC_StackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCC31E2A3BF700F9C90B /* WHC_StackView.m */; };
+		FE13BCCA1E2A40F600F9C90B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FE13BCC91E2A40F600F9C90B /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		FE13BC9D1E2A290500F9C90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE13BCA01E2A290500F9C90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE13BCA21E2A290500F9C90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE13BCAC1E2A29B000F9C90B /* UIViewController+WHC_Debuger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WHC_Debuger.h"; sourceTree = "<group>"; };
+		FE13BCAD1E2A29B000F9C90B /* UIViewController+WHC_Debuger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WHC_Debuger.m"; sourceTree = "<group>"; };
+		FE13BCAF1E2A2A6C00F9C90B /* UIView+WHC_Debuger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_Debuger.h"; sourceTree = "<group>"; };
+		FE13BCB01E2A2A6C00F9C90B /* UIView+WHC_Debuger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_Debuger.m"; sourceTree = "<group>"; };
+		FE13BCB21E2A2A9900F9C90B /* WHC_Debuger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_Debuger.h; sourceTree = "<group>"; };
+		FE13BCB31E2A2A9900F9C90B /* WHC_Debuger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_Debuger.m; sourceTree = "<group>"; };
+		FE13BCB51E2A3B9200F9C90B /* ViewControllerDemo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo1.h; sourceTree = "<group>"; };
+		FE13BCB61E2A3B9200F9C90B /* ViewControllerDemo1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo1.m; sourceTree = "<group>"; };
+		FE13BCB81E2A3BA100F9C90B /* ViewControllerDemo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo2.h; sourceTree = "<group>"; };
+		FE13BCB91E2A3BA100F9C90B /* ViewControllerDemo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo2.m; sourceTree = "<group>"; };
+		FE13BCBC1E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WHC_AutoHeightForCell.h"; sourceTree = "<group>"; };
+		FE13BCBD1E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WHC_AutoHeightForCell.m"; sourceTree = "<group>"; };
+		FE13BCBE1E2A3BF700F9C90B /* UIView+WHC_AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_AutoLayout.h"; sourceTree = "<group>"; };
+		FE13BCBF1E2A3BF700F9C90B /* UIView+WHC_AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_AutoLayout.m"; sourceTree = "<group>"; };
+		FE13BCC01E2A3BF700F9C90B /* UIView+WHC_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_Frame.h"; sourceTree = "<group>"; };
+		FE13BCC11E2A3BF700F9C90B /* UIView+WHC_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_Frame.m"; sourceTree = "<group>"; };
+		FE13BCC21E2A3BF700F9C90B /* WHC_StackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_StackView.h; sourceTree = "<group>"; };
+		FE13BCC31E2A3BF700F9C90B /* WHC_StackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_StackView.m; sourceTree = "<group>"; };
+		FE13BCC81E2A40F600F9C90B /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		FE13BCC91E2A40F600F9C90B /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +88,18 @@
 		FE13BC901E2A290500F9C90B /* WHC_Debuger */ = {
 			isa = PBXGroup;
 			children = (
+				FE13BCBB1E2A3BF700F9C90B /* WHC_AutoLayoutKit(OC) */,
+				FE13BCA81E2A292E00F9C90B /* WHC_Debuger */,
 				FE13BC941E2A290500F9C90B /* AppDelegate.h */,
 				FE13BC951E2A290500F9C90B /* AppDelegate.m */,
 				FE13BC971E2A290500F9C90B /* ViewController.h */,
 				FE13BC981E2A290500F9C90B /* ViewController.m */,
+				FE13BCB51E2A3B9200F9C90B /* ViewControllerDemo1.h */,
+				FE13BCB61E2A3B9200F9C90B /* ViewControllerDemo1.m */,
+				FE13BCB81E2A3BA100F9C90B /* ViewControllerDemo2.h */,
+				FE13BCB91E2A3BA100F9C90B /* ViewControllerDemo2.m */,
+				FE13BCC81E2A40F600F9C90B /* View.h */,
+				FE13BCC91E2A40F600F9C90B /* View.m */,
 				FE13BC9A1E2A290500F9C90B /* Main.storyboard */,
 				FE13BC9D1E2A290500F9C90B /* Assets.xcassets */,
 				FE13BC9F1E2A290500F9C90B /* LaunchScreen.storyboard */,
@@ -77,6 +115,34 @@
 				FE13BC921E2A290500F9C90B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE13BCA81E2A292E00F9C90B /* WHC_Debuger */ = {
+			isa = PBXGroup;
+			children = (
+				FE13BCAC1E2A29B000F9C90B /* UIViewController+WHC_Debuger.h */,
+				FE13BCAD1E2A29B000F9C90B /* UIViewController+WHC_Debuger.m */,
+				FE13BCAF1E2A2A6C00F9C90B /* UIView+WHC_Debuger.h */,
+				FE13BCB01E2A2A6C00F9C90B /* UIView+WHC_Debuger.m */,
+				FE13BCB21E2A2A9900F9C90B /* WHC_Debuger.h */,
+				FE13BCB31E2A2A9900F9C90B /* WHC_Debuger.m */,
+			);
+			path = WHC_Debuger;
+			sourceTree = "<group>";
+		};
+		FE13BCBB1E2A3BF700F9C90B /* WHC_AutoLayoutKit(OC) */ = {
+			isa = PBXGroup;
+			children = (
+				FE13BCBC1E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.h */,
+				FE13BCBD1E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.m */,
+				FE13BCBE1E2A3BF700F9C90B /* UIView+WHC_AutoLayout.h */,
+				FE13BCBF1E2A3BF700F9C90B /* UIView+WHC_AutoLayout.m */,
+				FE13BCC01E2A3BF700F9C90B /* UIView+WHC_Frame.h */,
+				FE13BCC11E2A3BF700F9C90B /* UIView+WHC_Frame.m */,
+				FE13BCC21E2A3BF700F9C90B /* WHC_StackView.h */,
+				FE13BCC31E2A3BF700F9C90B /* WHC_StackView.m */,
+			);
+			path = "WHC_AutoLayoutKit(OC)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13BCCA1E2A40F600F9C90B /* View.m in Sources */,
+				FE13BCC71E2A3BF700F9C90B /* WHC_StackView.m in Sources */,
+				FE13BCAE1E2A29B000F9C90B /* UIViewController+WHC_Debuger.m in Sources */,
 				FE13BC991E2A290500F9C90B /* ViewController.m in Sources */,
 				FE13BC961E2A290500F9C90B /* AppDelegate.m in Sources */,
+				FE13BCBA1E2A3BA100F9C90B /* ViewControllerDemo2.m in Sources */,
+				FE13BCB71E2A3B9200F9C90B /* ViewControllerDemo1.m in Sources */,
+				FE13BCC41E2A3BF700F9C90B /* UITableViewCell+WHC_AutoHeightForCell.m in Sources */,
+				FE13BCB41E2A2A9900F9C90B /* WHC_Debuger.m in Sources */,
+				FE13BCB11E2A2A6C00F9C90B /* UIView+WHC_Debuger.m in Sources */,
+				FE13BCC51E2A3BF700F9C90B /* UIView+WHC_AutoLayout.m in Sources */,
+				FE13BCC61E2A3BF700F9C90B /* UIView+WHC_Frame.m in Sources */,
 				FE13BC931E2A290500F9C90B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7F5YZXGNJ3;
 				INFOPLIST_FILE = WHC_Debuger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WHC.WHC-Debuger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7F5YZXGNJ3;
 				INFOPLIST_FILE = WHC_Debuger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WHC.WHC-Debuger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
