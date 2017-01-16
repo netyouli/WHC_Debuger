@@ -32,7 +32,7 @@
 
 @implementation UIViewController (WHC_Debuger)
 
--(void)dealloc {
+- (void)myDealloc {
     NSLog(@">>>>>>>>>>%@ 已经释放了<<<<<<<<<<",[NSStringFromClass(self.class) componentsSeparatedByString:@"."].lastObject);
 }
 
@@ -42,6 +42,10 @@
         Method myViewWillAppear = class_getInstanceMethod(self, @selector(myViewWillAppear:));
         Method viewWillAppear = class_getInstanceMethod(self, @selector(viewWillAppear:));
         method_exchangeImplementations(viewWillAppear, myViewWillAppear);
+        
+        Method myDealloc = class_getInstanceMethod(self, @selector(myDealloc));
+        Method dealloc = class_getInstanceMethod(self, NSSelectorFromString(@"dealloc"));
+        method_exchangeImplementations(dealloc, myDealloc);
     });
 }
 
