@@ -34,6 +34,7 @@
 
 - (void)myDealloc {
     NSLog(@">>>>>>>>>>%@ 已经释放了<<<<<<<<<<",[NSStringFromClass(self.class) componentsSeparatedByString:@"."].lastObject);
+    [self myDealloc];
 }
 
 + (void)load {
