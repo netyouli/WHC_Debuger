@@ -30,7 +30,7 @@ WHC_Debuger
 集成
 ==============
 * 使用CocoaPods:
-  -  OC版 pod 'WHC_Debuger', '~> 1.0.1'
+  -  OC版 pod 'WHC_Debuger', '~> 1.0.2'
   -  Swift版 pod 'WHC_DebugerSwift', '~> 1.0.0'
 * 手工集成:
   -  OC导入文件夹WHC_Debuger
