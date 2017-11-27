@@ -44,7 +44,11 @@ public class WHC_Debuger: NSObject {
             whc_CustomNote = " 当前控制器："
             noteLabel = UILabel()
             var noteLabelFrame = CGRect.zero
-            noteLabelFrame.origin = CGPoint(x: 0, y: 16)
+            if UIScreen.main.bounds.height == 812 {
+                noteLabelFrame.origin = CGPoint(x: 0, y: 35)
+            }else {
+                noteLabelFrame.origin = CGPoint(x: 0, y: 16)
+            }
             noteLabelFrame.size = CGSize(width: UIScreen.main.bounds.width, height: 20)
             noteLabel.frame = noteLabelFrame
             noteLabel.textColor = UIColor(red: 53.0 / 255, green: 205.0 / 255, blue: 73.0 / 255, alpha: 1.0)

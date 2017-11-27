@@ -55,7 +55,11 @@
 - (UILabel *)whc_NoteLabel {
     if (!_noteLabel) {
         CGRect noteLabelFrame;
-        noteLabelFrame.origin = CGPointMake(0, 16);
+        if ([UIScreen mainScreen].bounds.size.height == 812) {
+            noteLabelFrame.origin = CGPointMake(0, 35);
+        }else {
+            noteLabelFrame.origin = CGPointMake(0, 16);
+        }
         noteLabelFrame.size = CGSizeMake(CGRectGetWidth(UIScreen.mainScreen.bounds), 20);
         _noteLabel = UILabel.new;
         _noteLabel.frame = noteLabelFrame;
